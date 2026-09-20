@@ -1,0 +1,6 @@
+{
+  "name": "Đỗ Cận & Xuân Yến - Lớp 11A3 THPT Lương Phú",
+  "description": "Bài thuyết trình PowerPoint toàn màn hình môn Ngữ văn & Giáo dục địa phương của Lớp 11A3 Trường THPT Lương Phú (Thái Nguyên) về danh nhân Đỗ Cận và thi phẩm Xuân yến.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

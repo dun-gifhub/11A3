@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, .font-classical {
+    font-family: 'Noto Serif', Georgia, Cambria, serif;
+  }
+}
+
+/* Custom Antique Parchment Dark Theme Utilities */
+.bg-ink-dark {
+  background-color: #171513;
+}
+
+.bg-parchment-dark {
+  background-color: #221f1c;
+}
+
+.bg-parchment-card {
+  background-color: #2a2622;
+}
+
+.border-parchment-dark {
+  border-color: #423b33;
+}
+
+.text-parchment-light {
+  color: #ece5d8;
+}
+
+.text-parchment-muted {
+  color: #a89d8d;
+}
+
+.text-gold-antique {
+  color: #e5a93c;
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-6px) rotate(1deg); }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
